@@ -13,6 +13,27 @@
   <li><a href="1.html">HTML</a> </li>
   <li><a href="2.html" >CSS</a></li>
   <li><a href="3.html">JAVAScript</a></li>
+  <br><input id="다크모드ON_다크모드OFF" type="button" name="" value="다크모드ON" onclick="
+  var target = document.querySelector('body')
+  var target2 = document.querySelector('a')
+  var target3 = document.querySelector('ol li')
+  if(this.value === '다크모드ON')
+  {
+  target.style.background = 'black';
+  target.style.color = 'white';
+  target2.style.color = 'white';
+  target3.style.color = 'white';
+  this.value = '다크모드OFF';
+  }
+  else
+  {
+  target.style.background = 'white';
+  target.style.color = 'black';
+  target2.style.color = 'black';
+  target3.style.color = 'black';
+  this.value = '다크모드ON';
+  }
+">
 </ol>
 <div id="article">
 <div>
